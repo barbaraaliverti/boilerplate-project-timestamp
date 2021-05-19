@@ -3,6 +3,7 @@
 
 // init project
 var express = require('express');
+var helper = require('./helper');
 var app = express();
 
 // enable CORS (https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)
@@ -22,6 +23,31 @@ app.get("/", function (req, res) {
 // your first API endpoint... 
 app.get("/api/hello", function (req, res) {
   res.json({greeting: 'hello API'});
+});
+
+app.get("/api/", function (req, res) {
+  res.json({
+    unix: Date.parse(new Date()),
+    utc: new Date().toUTCString()
+  })
+})
+
+app.get("/api/:date", (req,res) => {
+  let {date} = req.params;
+  const dateObj = helper.parseDate(date);
+  const dateUnix = helper.convertToUnix(dateObj);
+  const dateUTC = helper.convertToUTC(dateObj);
+  if (helper.isValidDate(dateObj)) {
+    res.json({
+      unix: dateUnix,
+      utc: dateUTC
+    });
+  } else {
+    res.json({
+      error: 'Invalid Date'
+    })
+  }
+  
 });
 
 
