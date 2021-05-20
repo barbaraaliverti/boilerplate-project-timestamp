@@ -1,5 +1,5 @@
 const parseDate = (input) => {
-    if (input.includes("-")) {
+    if (input.match(/\D/gm)) {
         return new Date(input);
     } else {
         return new Date(parseInt(input));
