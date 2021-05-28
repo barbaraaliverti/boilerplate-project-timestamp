@@ -6,9 +6,8 @@ This is a solution to the [Timestamp Microservice](https://www.freecodecamp.org/
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [How to run this project locally]
+  - [How to run this project locally](#how-to-run-this-project-locally)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -31,11 +30,11 @@ Build a full stack JavaScript app that takes a request with a valid date and ret
 
 ### How to run this project locally
 
-Install npm:
+Install dependencies:
 
 ```npm install```
 
-Start node:
+Start server:
 
 ```npm start```
 
@@ -44,12 +43,7 @@ The page will be available on (http://localhost:3000/). Nodemon will automatical
 ### Screenshot
 
 ![image](https://user-images.githubusercontent.com/64551613/120026408-698aca80-bfc8-11eb-835f-16a8ece0e2a8.png)
-![image](https://user-images.githubusercontent.com/64551613/120026447-77d8e680-bfc8-11eb-8e0f-b2c93170b931.png)
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+![image](https://user-images.githubusercontent.com/64551613/120029553-a658c080-bfcc-11eb-883c-805462f6151d.png)
 
 ## My process
 
