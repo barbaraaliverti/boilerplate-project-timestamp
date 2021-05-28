@@ -1,6 +1,6 @@
 # Timestamp Microservice - challenge solution
 
-This is a solution to the [Timestamp Microservice](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/timestamp-microservice). FreeCodeCamp is a platform to help people learn to code for free.
+This is a solution to the [Timestamp Microservice](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/timestamp-microservice) challenge. FreeCodeCamp is a platform to help people learn to code for free. :)
 
 ## Table of contents
 
